@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <h1>JOGO DA VELHA</h1>
+      <!--Primeira linha -->
+      <div>
+        <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      </div>
+      <!--Segunda linha -->
+      <div>
+        <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      </div>
+      <!--Terceira linha -->
+      <div>
+        <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      </div>
+      <!--Informações do Jogo-->
+      <div class="jogador">
+        <label> Jogador: </label>
+        <label id="jogador-selecionado"></label>
+      </div>
+
+      <div class="vencedor">
+        <label> Vencedor: </label>
+        <label id="vencedor-selecionado"></label>
+      </div>
+
+      <!--Butão para resetar o jogo-->
+      <div>
+        <button onclick="reiniciar()">REINICIAR</button>
+      </div>
+    </section>
+  </body>
+  <!--Rodapé-->
+  <footer>
+    Feito por Tiago com: <img src="logos/logo-html5.png" alt="" />&nbsp;<img
+      src="logos/logo-css3.png"
+      alt=""
+    />&nbsp;<img src="logos/logo-javascript.png" alt="" />
+  </footer>
+
+  <!--Chamando meu script para o jogo da velha-->
+  <script src="script.js"></script>
+</html>

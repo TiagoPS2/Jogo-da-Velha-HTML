@@ -1,0 +1,55 @@
+body{
+  margin-top: 50px;
+  background-color: rgb(93, 191, 248);
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+h1{ 
+  font-size: 30px;
+  margin-bottom:10px;
+}
+section{
+  background-color: white;
+  margin: auto;
+  width: 500px;
+  border-radius: 10px;
+  border: solid black 3px;
+}
+.quadrado{
+  text-align: center;
+  width: 50px;
+  background: #eee;
+  display: inline-block;
+  padding: 40px;
+  font-size: 60px;
+  margin: 5px;
+  cursor: pointer;
+  color: #eee;
+  border-radius: 6px;
+}
+
+.jogador, .vencedor{
+  font-size: 25px;
+  margin-bottom: 10px;
+
+}
+
+img{
+  width: 45px;
+}
+footer{
+  display: inline-flex;
+  align-items: center;
+  margin-top: 10px;
+}
+button{
+  margin-bottom: 10px;
+  width: 100px;
+  height: 30px;
+  background: rgb(85, 136, 247);
+  cursor: pointer;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  border-radius: 5px;
+  
+}
