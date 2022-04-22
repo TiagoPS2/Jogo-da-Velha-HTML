@@ -1,5 +1,5 @@
 # Jogo-da-Velha-HTML
-Criação de um jogo  no site com HTML5, CSS3 e JavaScript pelo Bootcamp da DIO.
+Criação de um jogo  no site com HTML5, CSS3 e JavaScript pelo Bootcamp OrbiWebGames da DIO.
 
 Previa do site
 
